@@ -310,6 +310,48 @@ h3 {
   font-size: 0.92rem;
 }
 
+.footer-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.footer-links a {
+  color: var(--teal-dark);
+  font-weight: 800;
+}
+
+.policy-page {
+  background: white;
+}
+
+.policy-hero {
+  padding: clamp(48px, 7vw, 88px) clamp(20px, 5vw, 72px) 32px;
+}
+
+.policy-hero h1 {
+  max-width: 840px;
+  font-size: clamp(2.6rem, 6vw, 5.8rem);
+}
+
+.policy-hero p {
+  max-width: 720px;
+  color: var(--muted);
+  font-size: clamp(1rem, 1.6vw, 1.18rem);
+}
+
+.policy-embed {
+  padding: 0 clamp(20px, 5vw, 72px) clamp(48px, 7vw, 88px);
+}
+
+.policy-embed iframe {
+  width: 100%;
+  min-height: 76vh;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+}
+
 @media (max-width: 880px) {
   .site-header {
     position: static;
